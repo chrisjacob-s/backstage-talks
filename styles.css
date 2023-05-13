@@ -9,11 +9,13 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  background-color: white;
+  transition: background-color 0.5s ease;
 }
 
 /* Hides scroll bar */
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 /* Header */
@@ -42,6 +44,26 @@ header {
 }
 
 /* Book sections */
+.teal-bg {
+  background-color: #00c1b5;
+}
+
+.orange-bg {
+  background-color: #ff651a;
+}
+
+.yellow-bg {
+  background-color: #ffbe00;
+}
+
+.blue-bg {
+  background-color: #1d3fbb;
+}
+
+.red-bg {
+  background-color: #e30512;
+}
+
 img {
   width: 420px;
 }
@@ -53,7 +75,7 @@ img {
 }
 
 .issue-wrapper::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .issues {
